@@ -1,5 +1,12 @@
-h2 {
-  background-color: lightgrey;
+body {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: Lobster, cursive;
+  font-size: 3em;
 }
 
 /* for aria demonstration */
@@ -7,4 +14,26 @@ h2 {
   width:30%;
   height:200px;
   background-color: mediumseagreen;
+}
+
+
+.post-header, .comment h2 {
+  background-color: #DDE5F2;
+  padding: .5em;
+  padding-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: -2em;
+  margin-right: -2em;
+  /*border-radius: 1em;*/
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
+}
+
+h2 {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+section header p {
+  display: inline;
 }
